@@ -69,37 +69,30 @@
     class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased selection:bg-primary/30">
     <div class="relative min-h-screen w-full flex flex-col overflow-x-hidden">
         <!-- Navigation -->
-        <header class="sticky top-0 z-50 glass-nav border-b border-white/5 px-6 md:px-20 py-4">
-            <div class="max-w-[1200px] mx-auto flex items-center justify-between">
-                <div class="flex items-center gap-3">
-                    <div class="text-primary">
-                        <span class="material-symbols-outlined text-3xl">deployed_code</span>
-                    </div>
-                    <h2 class="text-xl font-bold tracking-tight md:uppercase">Cecilia Albarracín</h2>
+        <header class="w-full max-w-7xl mx-auto px-6 py-6 flex items-center justify-between z-50">
+            <div class="flex items-center gap-2 group cursor-pointer">
+                <div class="p-2 glass-card rounded-lg text-primary">
+                    <span class="material-symbols-outlined text-2xl font-bold">terminal</span>
                 </div>
-                <nav class="hidden md:flex items-center gap-10">
-                    <a class="text-sm font-medium hover:text-primary transition-colors text-slate-400"
-                        href="#">Proyectos</a>
-                    <a class="text-sm font-medium hover:text-primary transition-colors text-slate-400"
-                        href="#">Acerca de</a>
-                    <a class="text-sm font-medium hover:text-primary transition-colors text-slate-400"
-                        href="#">Contacto</a>
-                </nav>
-                <button class="md:hidden text-slate-100">
-                    <span class="material-symbols-outlined">menu</span>
-                </button>
+                <span class="text-xl font-black tracking-tighter dark:text-white">Cecilia Albarracín</span>
             </div>
+            <nav class="hidden md:flex items-center gap-1 glass-card px-2 py-1.5 rounded-full">
+                <a class="px-5 py-2 text-sm font-medium hover:text-primary transition-colors text-slate-100" href="index.html">Inicio</a>
+                <a class="px-5 py-2 text-sm font-medium hover:text-primary transition-colors text-slate-100" href="Projects.html">Trabajo</a>
+                <a class="px-5 py-2 text-sm font-medium hover:text-primary transition-colors text-slate-100" href="Acerca_de_mi.html">Acerca de mí</a>
+                <a class="px-5 py-2 text-sm font-medium hover:text-primary transition-colors text-slate-100" href="Contact.html">Contacto</a>
+            </nav>
         </header>
         <main class="flex-1 w-full max-w-[1200px] mx-auto px-6 py-12 md:py-20">
             <!-- Hero Section -->
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
                 <div class="max-w-2xl">
-                    <span class="text-slate-500 font-bold tracking-widest text-xs uppercase mb-3 block">Trabajos Destacados</span>
+                    <span class="text-slate-500 font-bold tracking-widest text-xs uppercase mb-3 block">Proceso de trabajo</span>
                     <h1 class="text-4xl md:text-6xl font-black leading-tight tracking-tight mb-4">
-                        Mis Proyectos
+                        Trabajo específico
                     </h1>
                     <p class="text-slate-400 text-lg leading-relaxed">
-                        Una exhibición curada de experiencias visuales recientes, con enfoque en estética moderna y funcionalidad.
+                        Especialista en Artes Finales | Preprensista
                     </p>
                 </div>
                 <div class="flex gap-4">
@@ -320,7 +313,7 @@
                     <p class="text-slate-400 text-lg max-w-xl mx-auto mb-10">
                         ¿Tienes un nuevo proyecto en mente? Demos vida a tu visión con precisión y estilo.
                     </p>
-                    <button
+                    <button onclick="window.location.href='Contact.html'"
                         class="bg-primary hover:bg-primary/90 text-white px-10 py-4 rounded-xl text-lg font-bold transition-all shadow-xl shadow-primary/30 flex items-center gap-3 mx-auto">
                         Contáctame <span class="material-symbols-outlined">mail</span>
                     </button>

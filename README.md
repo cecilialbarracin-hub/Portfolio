@@ -1,46 +1,65 @@
-# Portfolio Profesional - Cecilia Albarracín
+# Cecilia Albarracín - Portafolio Profesional
 
-Bienvenido/a al repositorio de mi portfolio profesional. Este proyecto es un sitio web diseñado para exhibir mis trabajos, enfocado en la **Producción y Diseño Gráfico**. Muestra proyectos seleccionados y ofrece información para potenciales clientes o colaboraciones, con diseños inspirados en _glassmorphism_ (o efecto cristal) y una estética moderna.
+![Cover Image](https://images.unsplash.com/photo-1541462608143-67571c6738dd?q=80&w=2070&auto=format&fit=crop) *(Imagen ilustrativa)*
 
-## 🚀 Tecnologías y Herramientas
+Este repositorio contiene el código fuente de mi portafolio profesional personal. Como **Diseñadora Gráfica Experta en Producción y Artes Finales**, he desarrollado este proyecto para exhibir mi experiencia de más de 20 años en la industria, conectando la creatividad visual con la precisión requerida en la imprenta. 
 
-Este proyecto es una web ligera y estéticamente atractiva, de carga rápida y sin dependencias complicadas, armada con tecnologías web estándar:
-
-- **HTML5**: Estructura semántica moderna.
-- **CSS3 / Tailwind CSS (vía CDN)**: Todos los estilos visuales, modos claros/oscuros, tipografías e interacciones están controlados por el framework de Tailwind CSS y utilidades nativas de CSS (como `backdrop-filter` para el efecto de vitral).
-- **JavaScript**: Lógica interactiva nativa (Vanilla JS) o animaciones puntuales integradas dentro de HTML.
-- **Tipografía Google Fonts**: Familia "Inter" y material symbols integrados.
-
-## 📁 Estructura del Proyecto
-
-El sitio web está dividido lógicamente en 3 páginas HTML principales. Cada una tiene un diseño responsivo, lo que permite que el sitio se vea bien tanto de forma móvil (en un dispositivo inteligente) como de escritorio.
-
-- `Index.html`: Página principal ("Inicio"). Actúa como presentación, ofreciendo un texto de bienvenida, una descripción personal rápida e iconos correspondientes de aptitudes y experiencia (como diseño UI/UX, InDesign o Photoshop).
-- `Projects.html`: Galería que expone de forma interactiva tipo _"carrusel"_ proyectos relevantes. Aquí se desglosa visualmente cada trabajo y su enfoque respectivo.
-- `Contact.html`: Un espacio dedicado para mantener comunicación directa a través de un esquema de formulario, o bien por detalles como teléfono o email personal.
-
-## 💻 Cómo ejecutar este proyecto localmente
-
-Ya que este sitio es completamente estático, no necesitamos la instalación de Node.js, Ruby o ningún servidor pesado localmente si lo único que quieres es verlo:
-
-1. **Clona el repositorio:**
-
-   ```bash
-   git clone https://github.com/usuario/tu-repo.git
-   cd tu-repo
-   ```
-
-2. **Abre cualquiera de los archivos:**
-   Haz doble clic sobre `Index.html` (o bien abre el archivo arrastrándolo a la venta de tu navegador web preferido, como Chrome, Firefox o Safari). ¡Listo! Podrás visualizar cada parte del sitio normalmente.
-
-   > Si usas VSCode, también puedes emplear la extensión **"Live Server"** para mantener una recarga automática (hot reload) por cada corrección que hagas.
-
-## 🎨 Apariencia
-
-El sitio se destaca por:
-- Animaciones dinámicas de fondo (Background blur blobs).
-- Compatibilidad dual para Modo Oscuro y Modo Claro (se activan dependiendo de las clases `dark` dentro del elemento raíz del html).
-- Micro-animaciones para botones y estados _"hovers"_.
+El sitio está construido bajo las últimas tendencias de diseño web, primando una estética oscura e inmersiva conocida como **Glassmorphism**, y ofrece una estructura limpia y funcional orientada a destacar mi trayectoria técnica y atención al detalle.
 
 ---
-**Cecilia Albarracín** - Producción y diseño Gráfico.
+
+## 🚀 Características del Proyecto
+
+- **Diseño Moderno (Glassmorphism):** Menús de navegación, tarjetas y secciones flotantes diseñadas con un acabado translúcido tipo "cristal", generando un impacto visual elegante y moderno.
+- **Totalmente Responsivo:** La interfaz se adapta perfectamente a dispositivos móviles, tablets y monitores de escritorio gracias a Tailwind CSS.
+- **Tema Oscuro por Defecto:** Reduce la fatiga visual de los visitantes y resalta los colores púrpuras/violetas seleccionados cuidadosamente para mi marca personal.
+- **Navegación Fluida:** 4 secciones bien definidas (Inicio, Trabajo, Acerca de mí, Contacto).
+- **Enfoque Profesional:** El contenido en toda la página fue curado para reflejar mi especialidad como Diseñadora de Pre-prensa y Artes Finales.
+
+---
+
+## 🛠️ Tecnologías Empleadas
+
+Este proyecto no requiere procesos de compilación (build scripts) complejos, ya que se apoya en tecnologías sólidas con un uso avanzado vía CDN.
+
+*   **HTML5 Semántico:** Estructura web moderna, accesible y optimizada.
+*   **CSS3 & Tailwind CSS (vía CDN):** Para un maquetado veloz, utilizando la paleta extendida, utilidades responsivas, y variables de `darkMode` personalizadas directamente desde el head.
+*   **JavaScript (Vanilla):** Gestión ligera de navegación y control del comportamiento de la interfaz gráfica sin dependencias.
+*   **Google Fonts:** Utilizando la familia tipográfica `Inter` para asegurar alta legibilidad en monitores de alta resolución.
+*   **Google Material Symbols:** Iconografía liviana e integrada eficientemente bajo los lineamientos de Google.
+
+---
+
+## 📁 Estructura de Archivos
+
+```
+.
+├── index.html          # Página principal - Introducción a mi perfil
+├── Acerca_de_mi.html   # Detalles sobre mi especialidad, experiencia de 20 años y habilidades.
+├── Projects.html       # "Trabajo / Proceso de trabajo" - Visualización de mis proyectos
+├── Contact.html        # Formulario de contacto directo y links sociales (LinkedIn).
+└── README.md           # Este archivo de documentación
+```
+
+---
+
+## 💻 Instrucciones de Uso (Desarrollo Local)
+
+Dado que es un proyecto de Frontend estático basado puramente en HTML/CSS/JS por navegador, no necesitas instalar dependencias de Node.js ni configurar servidores sofisticados:
+
+1. **Clona el repositorio** o descarga los archivos.
+2. Asegúrate de tener cualquier servidor local en funcionamiento, aunque puedes abrir directamente `index.html` en tu navegador de preferencia.
+   - *Tip:* Si utilizas Visual Studio Code, te recomiendo la extensión **Live Server**. Simplemente haz click derecho en `index.html` y selecciona *"Open with Live Server"*.
+3. Navega por las diferentes secciones mediante el menú superior.
+
+---
+
+## 📬 Contacto
+
+Si necesitas consultoría en artes finales, revisión pre-prensa o diseño enfocado a impresión y producción, no dudes en conectarte:
+
+- [LinkedIn - Cecilia Albarracín](https://www.linkedin.com/in/cecilialbarracin/)
+- A través de la sección **Contacto** dentro del propio portafolio web. 
+
+---
+*Hecho en Buenos Aires, Argentina.*

@@ -51,26 +51,27 @@
 <body
     class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased min-h-screen flex flex-col bg-mesh">
     <!-- Top Navigation Bar -->
-    <header class="w-full border-b border-primary/10 px-6 py-4 glass-effect sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto flex items-center justify-between">
-            <div class="flex items-center gap-2 text-primary">
-                <span class="material-symbols-outlined text-3xl">terminal</span>
-                <h2 class="text-xl font-bold tracking-tight md:uppercase">Cecilia Albarracín</h2>
+    <header class="w-full max-w-7xl px-6 py-6 flex items-center justify-between z-50 mx-auto">
+        <div class="flex items-center gap-2 group cursor-pointer">
+            <div class="p-2 bg-white/5 border border-white/10 backdrop-blur-md rounded-lg text-primary">
+                <span class="material-symbols-outlined text-2xl font-bold">terminal</span>
             </div>
-            <nav class="hidden md:flex items-center gap-10">
-                <a class="text-sm font-medium hover:text-primary transition-colors" href="#">Inicio</a>
-                <a class="text-sm font-medium hover:text-primary transition-colors" href="#">Proyectos</a>
-                <a class="text-sm font-medium hover:text-primary transition-colors" href="#">Acerca de</a>
-                <a class="text-sm font-medium hover:text-primary transition-colors" href="#">Contacto</a>
-            </nav>
+            <span class="text-xl font-black tracking-tighter dark:text-white">Cecilia Albarracín</span>
         </div>
+        <nav class="hidden md:flex items-center gap-1 bg-white/5 border border-white/10 backdrop-blur-md px-2 py-1.5 rounded-full">
+            <a class="px-5 py-2 text-sm font-medium hover:text-primary transition-colors" href="index.html">Inicio</a>
+            <a class="px-5 py-2 text-sm font-medium hover:text-primary transition-colors" href="Projects.html">Trabajo</a>
+            <a class="px-5 py-2 text-sm font-medium hover:text-primary transition-colors" href="Acerca_de_mi.html">Acerca de mí</a>
+            <a class="px-5 py-2 text-sm font-medium hover:text-primary transition-colors" href="Contact.html">Contacto</a>
+        </nav>
     </header>
     <main class="flex-grow flex flex-col items-center justify-center px-4 py-20">
         <!-- Hero Intro for Contact -->
         <div class="text-center mb-12 max-w-2xl">
             <h1 class="text-4xl md:text-5xl font-black mb-4 tracking-tight">Ponte en <span
                     class="text-primary">Contacto</span></h1>
-            <p class="text-slate-400 text-lg">¿Tienes un proyecto en mente o solo quieres saludar? Mi correo siempre está abierto.
+            <p class="text-slate-400 text-lg">¿Tienes un proyecto en mente o solo quieres saludar? Mi correo siempre
+                está abierto.
             </p>
         </div>
         <!-- Glassmorphism Contact Form Card -->
